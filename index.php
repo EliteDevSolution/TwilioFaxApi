@@ -2,8 +2,8 @@
 require 'SendProcessing.php';
 $SendMms = new sendProcessing();
 $messages = $SendMms->MessageRead();
-$t_sid = 'ACef1302576bce06a09acde229f5b5c6ee';
-$t_token = 'fc3e6789f74548604562bbbc9639db0e';
+$t_sid = '';
+$t_token = '';
 ?>
 <!doctype html>
 <html lang="en">
